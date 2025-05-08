@@ -1,0 +1,22 @@
+! Title: temp
+! Version: 1.59z+2
+! Description: none
+
+! new rules
+ㅡ
+
+! quick fixes
+m.fmkorea.com#@#.dummy ~div +script +:empty +div[id]:remove()
+!#if (adguard && (adguard_app_windows))
+chzzk.naver.com#@%#//scriptlet('prevent-xhr', 'veta.naver.com/gfp')
+chzzk.naver.com#@%#//scriptlet('prevent-xhr', 'veta.naver.com/call')
+chzzk.naver.com#@%#//scriptlet('prevent-xhr', 'veta.naver.com/vas')
+!#endif
+
+! passive
+@@||dcinside.com$cookie=_ga
+
+! temp
+! @@||store.epicgames.com^$extension
+
+!#include MutationObserver.txt
