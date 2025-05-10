@@ -1,11 +1,13 @@
 ! Title: temp
-! Version: 1.59z+3
+! Version: 1.59z+4
 ! Description: none
 
 ! new rules
+##a[class*='anner'][target='_blank']
 ㅡ
 
 ! quick fixes
+##.wixui-image:has(a[data-testid='linkElement'][target='_blank'])
 kio.ac#@#div[forcemount]
 linkkf.net#@#[class*='ad-placeholder']:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 m.fmkorea.com#@#.dummy ~div +script +:empty +div[id]:remove()
