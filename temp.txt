@@ -1,12 +1,15 @@
 ! Title: temp
-! Version: 1.59z+2
+! Version: 1.59z+3
 ! Description: none
 
 ! new rules
 ㅡ
 
 ! quick fixes
+kio.ac#@#div[forcemount]
+linkkf.net#@#[class*='ad-placeholder']:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 m.fmkorea.com#@#.dummy ~div +script +:empty +div[id]:remove()
+||adcr.naver.com^$all
 !#if (adguard && (adguard_app_windows))
 chzzk.naver.com#@%#//scriptlet('prevent-xhr', 'veta.naver.com/gfp')
 chzzk.naver.com#@%#//scriptlet('prevent-xhr', 'veta.naver.com/call')
